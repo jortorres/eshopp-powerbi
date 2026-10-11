@@ -1,0 +1,26 @@
+product_id,product_name,product_category,product_brand,product_model,product_list_price,product_standard_cost,product_is_active
+101,Smart Toaster,Appliances,Smartly,N15 Pro Ultra,1299.99,850.0,True
+102,AI Coffee Mug,Appliances,Smartly,v123,119.99,55.0,True
+103,Widget Spinner,Toys,Play Town,V69 AHD,9.99,1.0,True
+104,Bacon Strip Bandages,Health,United Health,M420,39.99,12.0,True
+105,Inflatable Unicorn Horn for Cats,Toys,Play Town,UH-9000,24.99,3.5,True
+106,USB Pet Rock,Electronics,Smartly,Rock 2.0,49.99,8.0,True
+107,Diet Water,Health,United Health,Zero Plus,5.99,0.25,True
+108,Portable Gravy Fountain,Appliances,KitchenKing,Deluxe XL,299.99,95.0,False
+109,Bluetooth Enabled Toothpick,Electronics,Smartly,Pick-i,79.99,12.0,True
+110,Handcrafted Artisanal Air,Health,United Health,Mountain Fresh,29.99,0.01,False
+111,Selfie Toaster,Appliances,KitchenKing,Face 3000,89.99,25.0,True
+112,Solar Powered Flashlight,Electronics,Gizmo Corp,Sun Lite,34.99,5.0,True
+113,Waterproof Sponge,Appliances,KitchenKing,Aqua Block,14.99,2.0,True
+114,Invisible Ink Printer,Electronics,Gizmo Corp,Ghost Pro,599.99,150.0,True
+115,Dehydrated Water Packets,Health,United Health,Instant Splash,8.99,0.10,False
+116,Noise Canceling Headphones for Dogs,Toys,Play Town,Bark Quiet,44.99,7.0,True
+117,Glow in the Dark Sunglasses,Electronics,Gizmo Corp,Rave Master,59.99,15.0,True
+118,Pre-Chewed Bubble Gum,Health,Snack Attack,Soft Start,3.99,0.50,True
+119,WiFi Enabled Salt Shaker,Appliances,Smartly,Sodium Cloud,149.99,35.0,True
+120,Self-Stirring Lazy Mug,Appliances,KitchenKing,Spin Sip,39.99,10.0,True
+121,Screaming Rubber Chicken,Toys,Play Town,Cluck 5000,12.99,2.0,True
+122,Edible Phone Case,Health,Snack Attack,Crunch Cover,19.99,4.0,True
+123,AI Powered Magic 8 Ball,Electronics,Smartly,Oracle Pro,89.99,20.0,False
+124,Motorized Ice Cream Cone,Appliances,KitchenKing,Lick Spin,29.99,8.0,True
+125,Caffeinated Soap,Health,United Health,Wake Wash,15.99,3.0,True

@@ -1,0 +1,28 @@
+geography_country,geography_state,geography_city,geography_population
+USA,California,Los Angeles,6473388
+USA,California,San Diego,4354572
+USA,California,San Jose,2284489
+USA,Texas,Houston,9574682
+USA,Texas,Dallas,9678519
+USA,Texas,Austin,4573669
+USA,New York,New York City,1816891
+USA,New York,Buffalo,3394769
+USA,New York,Rochester,1312752
+Canada,Ontario,Toronto,5714789
+Canada,Ontario,Ottawa,9355648
+Canada,Ontario,Hamilton,6163790
+Canada,Quebec,Montreal,4771339
+Canada,Quebec,Quebec City,3325709
+Canada,Quebec,Laval,2004354
+Canada,British Columbia,Vancouver,8292680
+Canada,British Columbia,Victoria,8966786
+Canada,British Columbia,Kelowna,5549720
+Mexico,Jalisco,Guadalajara,3466664
+Mexico,Jalisco,Zapopan,1515689
+Mexico,Jalisco,Tlaquepaque,2795683
+Mexico,Nuevo León,Monterrey,4106518
+Mexico,Nuevo León,San Nicolás,5047895
+Mexico,Nuevo León,Guadalupe,1920928
+Mexico,Chiapas,Tuxtla Gutiérrez,6299859
+Mexico,Chiapas,Tapachula,2355413
+Mexico,Chiapas,San Cristóbal,5608019
