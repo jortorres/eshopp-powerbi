@@ -17,7 +17,6 @@ A 9-page Power BI report built on a synthetic e-commerce dataset. It combines sa
 Seven CSV files in [`/data`](data/): `sales`, `customers`, `products`, `stores`, `website_sessions`, `dates`, `geographies`.
 
 - The data is synthetic (fictional customers and store names). It contains no real customer or company data.
-- **Source:** _[add where the dataset came from, e.g., course or tutorial name, and its license/terms]_
 - Raw `sales.csv` has 805 rows with 5 duplicate `sale_id` values; the model keeps 800 unique sales.
 
 ## Data model
@@ -68,7 +67,6 @@ Screenshots of every page are in [`/screenshots`](screenshots/).
 
 ## Example findings
 
-_(Computed from the deduplicated data; confirm they match what your visuals show.)_
 
 - Total revenue is about **$167K** on **1,793 units** across 800 sales, with an average discount of roughly 11%.
 - **Appliances** drive about 60% of revenue; the top brand, **Smartly**, accounts for about half.
