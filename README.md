@@ -2,7 +2,7 @@
 
 A 9-page Power BI report built on a synthetic e-commerce dataset. It combines sales, customer, product, store, and website-session data into one star-style model, and answers questions like *what drives revenue, which channels and devices convert, and where are customers located?*
 
-![CEO Dashboard](screenshots/09-ceo-dashboard.png)
+![CEO Dashboard](CEO Dashboard 2026-10-11 at 6.18.04 PM.png)
 
 ## What this project demonstrates
 
