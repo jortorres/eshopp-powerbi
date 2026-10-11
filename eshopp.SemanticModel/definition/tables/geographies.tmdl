@@ -1,0 +1,63 @@
+table geographies
+	lineageTag: bd76b51e-679c-4cad-8ba8-70e8acae021d
+
+	column geography_country
+		dataType: string
+		lineageTag: a149a786-0f15-4a6b-bba2-5dc6238ab989
+		summarizeBy: none
+		sourceColumn: geography_country
+
+		annotation SummarizationSetBy = Automatic
+
+	column geography_state
+		dataType: string
+		lineageTag: 511b47a9-bec1-485b-b119-27cefc94d994
+		summarizeBy: none
+		sourceColumn: geography_state
+
+		annotation SummarizationSetBy = Automatic
+
+	column geography_city
+		dataType: string
+		lineageTag: 9dc1ffd5-da65-41d7-b896-141620f33712
+		summarizeBy: none
+		sourceColumn: geography_city
+
+		annotation SummarizationSetBy = Automatic
+
+	column geography_population
+		dataType: int64
+		formatString: 0
+		lineageTag: 5cc1536a-085f-4cc3-9503-535bba52b3a4
+		summarizeBy: sum
+		sourceColumn: geography_population
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'geography_country Hierarchy'
+		lineageTag: 287703b8-5beb-465c-b9f1-d7d64d847d6a
+
+		level geography_country
+			lineageTag: 68a55ec5-25ef-47ff-926d-6a65d81357e9
+			column: geography_country
+
+		level geography_state
+			lineageTag: d06fea9a-772e-414c-9364-1e7bf6b3fa81
+			column: geography_state
+
+		level geography_city
+			lineageTag: acb0b427-17ec-4bc1-9d1d-4e00325dbcb9
+			column: geography_city
+
+	partition geographies = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Mac\Home\Documents\dataviz-project\geographies.csv"),[Delimiter=",", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"geography_country", type text}, {"geography_state", type text}, {"geography_city", type text}, {"geography_population", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

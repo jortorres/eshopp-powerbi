@@ -1,0 +1,12 @@
+// Welcome to DAX query view! Learn more about DAX queries at https://aka.ms/dax-queries.
+// Right-click on tables, columns, or measures in the data pane to access quick queries, or ask Copilot for help writing DAX.
+
+// Select "Run" to try this sample DAX query.
+EVALUATE
+ADDCOLUMNS(
+  sales,
+  "sales_price", sales[sale_quantity] * RELATED(products[product_list_price]),
+  "days_before_migration", DATEDIFF(RELATED(dates[date]),DATE(2025,02,14),DAY)
+)
+ORDER BY
+	[days_before_migration] DESC
